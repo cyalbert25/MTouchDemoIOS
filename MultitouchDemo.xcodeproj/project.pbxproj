@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74612F7529828D530077B805 /* multitouch_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74612F7429828D530077B805 /* multitouch_demoApp.swift */; };
+		74612F7529828D530077B805 /* MultitouchDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74612F7429828D530077B805 /* MultitouchDemoApp.swift */; };
 		74612F7729828D530077B805 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74612F7629828D530077B805 /* ContentView.swift */; };
 		74612F7929828D540077B805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74612F7829828D540077B805 /* Assets.xcassets */; };
 		74612F7C29828D540077B805 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74612F7B29828D540077B805 /* Preview Assets.xcassets */; };
-		74612F8629828D540077B805 /* multitouch_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74612F8529828D540077B805 /* multitouch_demoTests.swift */; };
-		74612F9029828D540077B805 /* multitouch_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74612F8F29828D540077B805 /* multitouch_demoUITests.swift */; };
-		74612F9229828D540077B805 /* multitouch_demoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74612F9129828D540077B805 /* multitouch_demoUITestsLaunchTests.swift */; };
+		74612F9F29828E550077B805 /* TouchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74612F9E29828E550077B805 /* TouchableView.swift */; };
+		74612FA129828F180077B805 /* TouchSpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74612FA029828F180077B805 /* TouchSpotView.swift */; };
+		74612FA3298290E30077B805 /* TouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74612FA2298290E30077B805 /* TouchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +34,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		74612F7129828D530077B805 /* multitouch.demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multitouch.demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		74612F7429828D530077B805 /* multitouch_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multitouch_demoApp.swift; sourceTree = "<group>"; };
+		74612F7129828D530077B805 /* MultitouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultitouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74612F7429828D530077B805 /* MultitouchDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultitouchDemoApp.swift; sourceTree = "<group>"; };
 		74612F7629828D530077B805 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74612F7829828D540077B805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74612F7B29828D540077B805 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		74612F8129828D540077B805 /* multitouch.demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multitouch.demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		74612F8529828D540077B805 /* multitouch_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multitouch_demoTests.swift; sourceTree = "<group>"; };
-		74612F8B29828D540077B805 /* multitouch.demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multitouch.demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		74612F8F29828D540077B805 /* multitouch_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multitouch_demoUITests.swift; sourceTree = "<group>"; };
-		74612F9129828D540077B805 /* multitouch_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multitouch_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		74612F8129828D540077B805 /* MultitouchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultitouchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74612F8B29828D540077B805 /* MultitouchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultitouchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74612F9E29828E550077B805 /* TouchableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchableView.swift; sourceTree = "<group>"; };
+		74612FA029828F180077B805 /* TouchSpotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchSpotView.swift; sourceTree = "<group>"; };
+		74612FA2298290E30077B805 /* TouchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +74,7 @@
 		74612F6829828D530077B805 = {
 			isa = PBXGroup;
 			children = (
-				74612F7329828D530077B805 /* multitouch.demo */,
-				74612F8429828D540077B805 /* multitouch.demoTests */,
-				74612F8E29828D540077B805 /* multitouch.demoUITests */,
+				74612F7329828D530077B805 /* multitouch-demo */,
 				74612F7229828D530077B805 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,22 +82,25 @@
 		74612F7229828D530077B805 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				74612F7129828D530077B805 /* multitouch.demo.app */,
-				74612F8129828D540077B805 /* multitouch.demoTests.xctest */,
-				74612F8B29828D540077B805 /* multitouch.demoUITests.xctest */,
+				74612F7129828D530077B805 /* MultitouchDemo.app */,
+				74612F8129828D540077B805 /* MultitouchDemoTests.xctest */,
+				74612F8B29828D540077B805 /* MultitouchDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		74612F7329828D530077B805 /* multitouch.demo */ = {
+		74612F7329828D530077B805 /* multitouch-demo */ = {
 			isa = PBXGroup;
 			children = (
-				74612F7429828D530077B805 /* multitouch_demoApp.swift */,
+				74612F7429828D530077B805 /* MultitouchDemoApp.swift */,
 				74612F7629828D530077B805 /* ContentView.swift */,
 				74612F7829828D540077B805 /* Assets.xcassets */,
 				74612F7A29828D540077B805 /* Preview Content */,
+				74612F9E29828E550077B805 /* TouchableView.swift */,
+				74612FA029828F180077B805 /* TouchSpotView.swift */,
+				74612FA2298290E30077B805 /* TouchView.swift */,
 			);
-			path = multitouch.demo;
+			path = "multitouch-demo";
 			sourceTree = "<group>";
 		};
 		74612F7A29828D540077B805 /* Preview Content */ = {
@@ -110,29 +111,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		74612F8429828D540077B805 /* multitouch.demoTests */ = {
-			isa = PBXGroup;
-			children = (
-				74612F8529828D540077B805 /* multitouch_demoTests.swift */,
-			);
-			path = multitouch.demoTests;
-			sourceTree = "<group>";
-		};
-		74612F8E29828D540077B805 /* multitouch.demoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				74612F8F29828D540077B805 /* multitouch_demoUITests.swift */,
-				74612F9129828D540077B805 /* multitouch_demoUITestsLaunchTests.swift */,
-			);
-			path = multitouch.demoUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		74612F7029828D530077B805 /* multitouch.demo */ = {
+		74612F7029828D530077B805 /* MultitouchDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74612F9529828D540077B805 /* Build configuration list for PBXNativeTarget "multitouch.demo" */;
+			buildConfigurationList = 74612F9529828D540077B805 /* Build configuration list for PBXNativeTarget "MultitouchDemo" */;
 			buildPhases = (
 				74612F6D29828D530077B805 /* Sources */,
 				74612F6E29828D530077B805 /* Frameworks */,
@@ -142,14 +126,14 @@
 			);
 			dependencies = (
 			);
-			name = multitouch.demo;
+			name = MultitouchDemo;
 			productName = multitouch.demo;
-			productReference = 74612F7129828D530077B805 /* multitouch.demo.app */;
+			productReference = 74612F7129828D530077B805 /* MultitouchDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		74612F8029828D540077B805 /* multitouch.demoTests */ = {
+		74612F8029828D540077B805 /* MultitouchDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74612F9829828D540077B805 /* Build configuration list for PBXNativeTarget "multitouch.demoTests" */;
+			buildConfigurationList = 74612F9829828D540077B805 /* Build configuration list for PBXNativeTarget "MultitouchDemoTests" */;
 			buildPhases = (
 				74612F7D29828D540077B805 /* Sources */,
 				74612F7E29828D540077B805 /* Frameworks */,
@@ -160,14 +144,14 @@
 			dependencies = (
 				74612F8329828D540077B805 /* PBXTargetDependency */,
 			);
-			name = multitouch.demoTests;
+			name = MultitouchDemoTests;
 			productName = multitouch.demoTests;
-			productReference = 74612F8129828D540077B805 /* multitouch.demoTests.xctest */;
+			productReference = 74612F8129828D540077B805 /* MultitouchDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		74612F8A29828D540077B805 /* multitouch.demoUITests */ = {
+		74612F8A29828D540077B805 /* MultitouchDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74612F9B29828D540077B805 /* Build configuration list for PBXNativeTarget "multitouch.demoUITests" */;
+			buildConfigurationList = 74612F9B29828D540077B805 /* Build configuration list for PBXNativeTarget "MultitouchDemoUITests" */;
 			buildPhases = (
 				74612F8729828D540077B805 /* Sources */,
 				74612F8829828D540077B805 /* Frameworks */,
@@ -178,9 +162,9 @@
 			dependencies = (
 				74612F8D29828D540077B805 /* PBXTargetDependency */,
 			);
-			name = multitouch.demoUITests;
+			name = MultitouchDemoUITests;
 			productName = multitouch.demoUITests;
-			productReference = 74612F8B29828D540077B805 /* multitouch.demoUITests.xctest */;
+			productReference = 74612F8B29828D540077B805 /* MultitouchDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +190,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 74612F6C29828D530077B805 /* Build configuration list for PBXProject "multitouch.demo" */;
+			buildConfigurationList = 74612F6C29828D530077B805 /* Build configuration list for PBXProject "MultitouchDemo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +203,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				74612F7029828D530077B805 /* multitouch.demo */,
-				74612F8029828D540077B805 /* multitouch.demoTests */,
-				74612F8A29828D540077B805 /* multitouch.demoUITests */,
+				74612F7029828D530077B805 /* MultitouchDemo */,
+				74612F8029828D540077B805 /* MultitouchDemoTests */,
+				74612F8A29828D540077B805 /* MultitouchDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,8 +241,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74612F9F29828E550077B805 /* TouchableView.swift in Sources */,
+				74612FA3298290E30077B805 /* TouchView.swift in Sources */,
 				74612F7729828D530077B805 /* ContentView.swift in Sources */,
-				74612F7529828D530077B805 /* multitouch_demoApp.swift in Sources */,
+				74612FA129828F180077B805 /* TouchSpotView.swift in Sources */,
+				74612F7529828D530077B805 /* MultitouchDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74612F8629828D540077B805 /* multitouch_demoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74612F9029828D540077B805 /* multitouch_demoUITests.swift in Sources */,
-				74612F9229828D540077B805 /* multitouch_demoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +268,12 @@
 /* Begin PBXTargetDependency section */
 		74612F8329828D540077B805 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 74612F7029828D530077B805 /* multitouch.demo */;
+			target = 74612F7029828D530077B805 /* MultitouchDemo */;
 			targetProxy = 74612F8229828D540077B805 /* PBXContainerItemProxy */;
 		};
 		74612F8D29828D540077B805 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 74612F7029828D530077B805 /* multitouch.demo */;
+			target = 74612F7029828D530077B805 /* MultitouchDemo */;
 			targetProxy = 74612F8C29828D540077B805 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -416,7 +400,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"multitouch.demo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"multitouch-demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 6VZH5Z76YG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -424,6 +409,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,7 +430,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"multitouch.demo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"multitouch-demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 6VZH5Z76YG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -452,6 +439,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,7 +468,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multitouch.demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/multitouch.demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultitouchDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MultitouchDemo";
 			};
 			name = Debug;
 		};
@@ -499,7 +487,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multitouch.demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/multitouch.demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultitouchDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MultitouchDemo";
 			};
 			name = Release;
 		};
@@ -540,7 +528,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		74612F6C29828D530077B805 /* Build configuration list for PBXProject "multitouch.demo" */ = {
+		74612F6C29828D530077B805 /* Build configuration list for PBXProject "MultitouchDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74612F9329828D540077B805 /* Debug */,
@@ -549,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74612F9529828D540077B805 /* Build configuration list for PBXNativeTarget "multitouch.demo" */ = {
+		74612F9529828D540077B805 /* Build configuration list for PBXNativeTarget "MultitouchDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74612F9629828D540077B805 /* Debug */,
@@ -558,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74612F9829828D540077B805 /* Build configuration list for PBXNativeTarget "multitouch.demoTests" */ = {
+		74612F9829828D540077B805 /* Build configuration list for PBXNativeTarget "MultitouchDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74612F9929828D540077B805 /* Debug */,
@@ -567,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74612F9B29828D540077B805 /* Build configuration list for PBXNativeTarget "multitouch.demoUITests" */ = {
+		74612F9B29828D540077B805 /* Build configuration list for PBXNativeTarget "MultitouchDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74612F9C29828D540077B805 /* Debug */,
